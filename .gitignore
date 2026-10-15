@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Certificates and private keys
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.old
+
+# Test coverage
+coverage/
+
+# Build and release output
+dist/
+release/
+
+# Cache files
+.cache/
+.parcel-cache/
+EOF

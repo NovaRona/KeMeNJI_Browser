@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>KeMeNJI Browser</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="assets/favicon.png" type="image/png">
+</head>
+<body>
+<div id="chrome-trigger"></div>
+
+<div id="browser-chrome">
+	<header>
+	  <strong><span class="logo">K</span> KeMeNJI</strong>
+	  <div id="tabs"></div>
+	  <button id="newtab">＋</button>
+	</header>
+	<nav>
+	  <button id="back">←</button>
+	  <button id="forward">→</button>
+	  <button id="reload">↻</button>
+	  <button id="home">⌂</button>
+	  <form id="addressform">
+	    <input id="address" placeholder="Search or enter a website">
+	    <button>Go</button>
+	  </form>
+	</nav>
+</div>
+<main id="views"></main>
+<footer>KeMeNJI Browser · Powered by Electron + Chromium</footer>
+<script src="renderer.js"></script>
+</body>
+</html>
