@@ -46,4 +46,4 @@ https://nodejs.org/
 Clone the repository:
 
 ```bash
-git clone https://github.com//KeMeNJI-Browser.git
+git clone https://github.com/NovaRona/KeMeNJI-Browser.git
